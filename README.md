@@ -28,7 +28,7 @@ $ npm run server-dev
 * Take a look at the provided code. This repo uses webpack, which you don't need to worry too much about right now. Webpack is a replacement for the babel command you used in recast.ly. Notice, however, that rather than attaching components to the window object, you'll use [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) syntax.
 * See the *tips* section before you start writing any code.
 
-**OVERVIEW**
+# OVERVIEW
 
 You are building an app that takes data from GitHub's API and stores it in your database. Here is an overview of what you'll need to do:
 
@@ -86,18 +86,17 @@ Each user's username should be a link that takes you to that user's page (see ne
 *Example:* "How do I add a route in express?"
 
 *Solution:*
-1. Google the above question
-2. Prioritize official docs
+* Google the above question
+* Prioritize official docs
   * In this case, express docs
   * Do a search (command + f) on the docs page and search for your subject (routes)
   * Read!
-3. If official docs are too obscure, look for a stack overflow question (from the google page you brought up earlier)
-4. ead the question content and make sure it's relevant
-5. If you find a good answer:
+* If official docs are too obscure, look for a stack overflow question (from the google page you brought up earlier)
+* Read the question content and make sure it's relevant
+* If you find a good answer:
   * Understand it conceptually
   * Reference the official documentation to see if its recommended usage matches the stack overflow answer
   * Use that information to proceed in writing your app
-
 * You should learn how to be autonomous on the "how to do" (see previous bullet). However, if you don’t know “what to do", you should open a help desk ticket pretty quickly.
   * It’ll be the same on the job. Your co-workers won’t have time to go over every "how to do" question you might have, but they will always be willing to go over the “what to do” strategies and approaches.
 * To avoid duplicate repos, you first must decide which column(s) you should use to determine uniqueness.
